@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEB1AC0446CD9066E9E168C6 /* Pods_KickThreads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCCDD8DBB309EDCBDD16F2B /* Pods_KickThreads.framework */; };
 		C7ACF5161EBD53FE00EF5E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACF5151EBD53FE00EF5E4E /* AppDelegate.swift */; };
 		C7ACF5181EBD53FE00EF5E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ACF5171EBD53FE00EF5E4E /* ViewController.swift */; };
 		C7ACF51B1EBD53FE00EF5E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ACF5191EBD53FE00EF5E4E /* Main.storyboard */; };
 		C7ACF51D1EBD53FE00EF5E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7ACF51C1EBD53FE00EF5E4E /* Assets.xcassets */; };
 		C7ACF5201EBD53FE00EF5E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ACF51E1EBD53FE00EF5E4E /* LaunchScreen.storyboard */; };
+		C7C910881EBE4346009642F7 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C910861EBE4346009642F7 /* RestKit.framework */; };
+		C7C910891EBE4346009642F7 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C910871EBE4346009642F7 /* VisualRecognitionV3.framework */; };
+		C7C9108B1EBE4438009642F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7C9108A1EBE4438009642F7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6288BA900547B877FAC12AED /* Pods-KickThreads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickThreads.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickThreads/Pods-KickThreads.release.xcconfig"; sourceTree = "<group>"; };
+		7CCCDD8DBB309EDCBDD16F2B /* Pods_KickThreads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KickThreads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7ACF5121EBD53FE00EF5E4E /* KickThreads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickThreads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7ACF5151EBD53FE00EF5E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7ACF5171EBD53FE00EF5E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		C7ACF51C1EBD53FE00EF5E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7ACF51F1EBD53FE00EF5E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7ACF5211EBD53FE00EF5E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C910861EBE4346009642F7 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		C7C910871EBE4346009642F7 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		C7C9108A1EBE4438009642F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC9ACFD2DF370BFBF9C89012 /* Pods-KickThreads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickThreads.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KickThreads/Pods-KickThreads.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C910881EBE4346009642F7 /* RestKit.framework in Frameworks */,
+				C7C910891EBE4346009642F7 /* VisualRecognitionV3.framework in Frameworks */,
+				AEB1AC0446CD9066E9E168C6 /* Pods_KickThreads.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		339B0134A824C05E66ABEE01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC9ACFD2DF370BFBF9C89012 /* Pods-KickThreads.debug.xcconfig */,
+				6288BA900547B877FAC12AED /* Pods-KickThreads.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C7ACF5091EBD53FD00EF5E4E = {
 			isa = PBXGroup;
 			children = (
 				C7ACF5141EBD53FE00EF5E4E /* KickThreads */,
 				C7ACF5131EBD53FE00EF5E4E /* Products */,
+				C7C910311EBE4298009642F7 /* Frameworks */,
+				339B0134A824C05E66ABEE01 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +84,19 @@
 				C7ACF51C1EBD53FE00EF5E4E /* Assets.xcassets */,
 				C7ACF51E1EBD53FE00EF5E4E /* LaunchScreen.storyboard */,
 				C7ACF5211EBD53FE00EF5E4E /* Info.plist */,
+				C7C9108A1EBE4438009642F7 /* GoogleService-Info.plist */,
 			);
 			path = KickThreads;
+			sourceTree = "<group>";
+		};
+		C7C910311EBE4298009642F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7C910861EBE4346009642F7 /* RestKit.framework */,
+				C7C910871EBE4346009642F7 /* VisualRecognitionV3.framework */,
+				7CCCDD8DBB309EDCBDD16F2B /* Pods_KickThreads.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7ACF5241EBD53FE00EF5E4E /* Build configuration list for PBXNativeTarget "KickThreads" */;
 			buildPhases = (
+				8D6F10B08FA46E4845A27546 /* [CP] Check Pods Manifest.lock */,
 				C7ACF50E1EBD53FD00EF5E4E /* Sources */,
 				C7ACF50F1EBD53FD00EF5E4E /* Frameworks */,
 				C7ACF5101EBD53FD00EF5E4E /* Resources */,
+				C7C910851EBE42C8009642F7 /* ShellScript */,
+				39B764A88A0474FAE9F2DB7C /* [CP] Embed Pods Frameworks */,
+				220384AE928A838383A9BA1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +164,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7ACF5201EBD53FE00EF5E4E /* LaunchScreen.storyboard in Resources */,
+				C7C9108B1EBE4438009642F7 /* GoogleService-Info.plist in Resources */,
 				C7ACF51D1EBD53FE00EF5E4E /* Assets.xcassets in Resources */,
 				C7ACF51B1EBD53FE00EF5E4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220384AE928A838383A9BA1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KickThreads/Pods-KickThreads-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39B764A88A0474FAE9F2DB7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KickThreads/Pods-KickThreads-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6F10B08FA46E4845A27546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7C910851EBE42C8009642F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/VisualRecognitionV3.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RestKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7ACF50E1EBD53FD00EF5E4E /* Sources */ = {
@@ -259,10 +362,16 @@
 		};
 		C7ACF5251EBD53FE00EF5E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9ACFD2DF370BFBF9C89012 /* Pods-KickThreads.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LZKU673F93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = KickThreads/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.saatvikarya.KickThreads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +381,16 @@
 		};
 		C7ACF5261EBD53FE00EF5E4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6288BA900547B877FAC12AED /* Pods-KickThreads.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LZKU673F93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = KickThreads/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.saatvikarya.KickThreads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +417,7 @@
 				C7ACF5261EBD53FE00EF5E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
