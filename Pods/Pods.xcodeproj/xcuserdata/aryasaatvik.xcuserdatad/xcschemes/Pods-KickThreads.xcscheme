@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "009E2FBC943886758A3215855AF57916"
+               BlueprintIdentifier = "8701C5A8AC16B0B2B4B5C06F71389307"
                BuildableName = "Pods_KickThreads.framework"
                BlueprintName = "Pods-KickThreads"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "009E2FBC943886758A3215855AF57916"
+            BlueprintIdentifier = "8701C5A8AC16B0B2B4B5C06F71389307"
             BuildableName = "Pods_KickThreads.framework"
             BlueprintName = "Pods-KickThreads"
             ReferencedContainer = "container:Pods.xcodeproj">
