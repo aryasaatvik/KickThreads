@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Outfit" id="Zay-xi-FAA"/>
+                    <tabBarItem key="tabBarItem" title="Outfit" image="Outfit Icon" selectedImage="Outfit Icon" id="Zay-xi-FAA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v4s-zH-9Ot" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,7 +58,7 @@
                             <constraint firstItem="oNM-8S-EGa" firstAttribute="top" secondItem="yi4-K6-hTM" secondAttribute="bottom" constant="8" id="wvk-nx-5XZ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Inventory" id="3aZ-Br-7r4"/>
+                    <tabBarItem key="tabBarItem" title="Inventory" image="Inventory icon" selectedImage="Inventory icon" id="3aZ-Br-7r4"/>
                     <connections>
                         <outlet property="inventoryLabel" destination="oNM-8S-EGa" id="Gw4-qJ-516"/>
                     </connections>
@@ -336,7 +336,7 @@
                             <constraint firstItem="p9C-TJ-CxL" firstAttribute="top" secondItem="nf2-Ca-v7x" secondAttribute="bottom" constant="7" id="r83-br-KHQ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Scan" id="bCh-mE-Z4e"/>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="bCh-mE-Z4e"/>
                     <connections>
                         <outlet property="imageView" destination="bBT-Av-fko" id="93w-8L-sgc"/>
                         <outlet property="status" destination="SIa-fO-KkG" id="ALM-mL-U8x"/>
@@ -347,4 +347,8 @@
             <point key="canvasLocation" x="-1316" y="-282"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Inventory icon" width="24" height="23"/>
+        <image name="Outfit Icon" width="55" height="55"/>
+    </resources>
 </document>
